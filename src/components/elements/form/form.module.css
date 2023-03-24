@@ -1,0 +1,158 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.form {
+  background: #FFFFFF;
+  color: #070707;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 34px 20px;
+  box-sizing: border-box;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 110;
+}
+
+.link {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  text-decoration: underline;
+  color: #D58C51;
+  position: absolute;
+  top: 7px;
+  right: 19px;
+}
+
+.link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.input {
+  border: 1px solid #D58C51;
+  border-radius: 61px;
+  padding: 9px 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #161516;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 36px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.inner {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #301411;
+}
+
+.custom-checkbox {
+  content: '';
+  display: inline-block;
+  min-width: 17px;
+  min-height: 17px;
+  border-radius: 30px;
+  border: 1px solid #D58C51;
+  cursor: pointer;
+  margin-right: 9px;
+  z-index: 5;
+}
+
+.active {
+  content: '';
+  display: inline-block;
+  min-width: 17px;
+  min-height: 17px;
+  border-radius: 30px;
+  border: 1px solid #D58C51;
+  cursor: pointer;
+  margin-right: 9px;
+  z-index: 5;
+  position: relative;
+}
+
+.active::before {
+  content: '';
+  display: inline-block;
+  min-width: 11px;
+  min-height: 11px;
+  border-radius: 30px;
+  border: 1px solid #D58C51;
+  background-color: #D58C51;
+  cursor: pointer;
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.invalid {
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FF0B0B;
+  position: absolute;
+  bottom: -12px;
+  left: 18px;
+}
+
+.invalid-data {
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FF0B0B;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}

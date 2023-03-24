@@ -1,0 +1,11 @@
+.content {
+    position: relative;
+	width: 100%;    
+	height: 100vh;
+	background: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.6)), url(/public/img/maskGroup.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;    
+}

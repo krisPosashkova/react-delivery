@@ -1,0 +1,46 @@
+.content {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.content:hover {
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 98px;
+}
+
+.preview {
+  width: 122px;
+  height: 122px;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  max-width: 310px;
+}
+
+.heading:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.price {
+  color: #D58C51;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}

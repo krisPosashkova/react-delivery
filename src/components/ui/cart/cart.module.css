@@ -1,0 +1,16 @@
+.content {
+    width: 30px;
+    height: 30px;
+    background-color: #D58C51;
+    border-radius: 30px;
+    position: relative;
+    background-image: url(../../../../public/icon/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    cursor: pointer;
+}
+
+.content:hover {
+    opacity: 0.5;
+}

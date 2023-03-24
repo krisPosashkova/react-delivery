@@ -1,0 +1,23 @@
+.content {
+  padding: 12px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background: #D58C51;
+  color: #131313;
+  cursor: pointer;
+  max-width: 200px;
+  width: 200px;
+  max-height: 42px;
+  white-space: nowrap;
+}
+
+.content:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.content:active {
+  opacity: 0.3;
+  transition: 0.3s;
+}
